@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 550px;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+p {
+    margin: 10px 0;
+}
+p.error {
+    color: red;
+}
